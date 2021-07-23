@@ -86,7 +86,7 @@ export default function App() {
             <TopLevelModals />
             <Switch>
               <Route exact strict path="/vote" component={Vote} />
-              <Route exact strict path="/vote/:governorIndex/:id" component={VotePage} />
+              {/* <Route exact strict path="/vote/:governorIndex/:id" component={VotePage} />
               <Route exact strict path="/claim" component={OpenClaimAddressModalAndRedirectToSwap} />
               <Route exact strict path="/uni" component={Earn} />
               <Route exact strict path="/uni/:currencyIdA/:currencyIdB" component={Manage} />
@@ -122,7 +122,7 @@ export default function App() {
               <Route exact strict path="/migrate/v2/:address" component={MigrateV2Pair} />
 
               <Route exact strict path="/create-proposal" component={CreateProposal} />
-              <Route component={RedirectPathToSwapOnly} />
+              <Route component={RedirectPathToSwapOnly} /> */}
             </Switch>
             <Marginer />
           </BodyWrapper>
